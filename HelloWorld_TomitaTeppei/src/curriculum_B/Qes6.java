@@ -25,16 +25,18 @@ public class Qes6 {
 			score[i][3] = scanner.nextInt();
 		}
 		System.out.println();
+		
+		int totalSum = 0;
 
 		for (int i = 0; i < student; i++) {
 			int sum = 0;
 			for (int j = 0; j < 4; j++) {
 				sum += score[i][j];
 			}
+			totalSum += sum;
 			double average = (double) sum / 4;
 			System.out.printf("%d人目の平均点: %.2f点\n", i + 1, average);
 		}
-
 		System.out.println();
 
 		for (int j = 0; j < 4; j++) {
@@ -45,6 +47,9 @@ public class Qes6 {
 			double average = (double) sum / student;
 			System.out.printf("%sの平均点: %.2f点\n", subjects[j], average);
 		}
+		double overallAverage = (double) totalSum / (student * 4);
+		System.out.printf("\n全体の平均点: %.2f点\n", overallAverage);
+		
 		scanner.close();
 	}
 }

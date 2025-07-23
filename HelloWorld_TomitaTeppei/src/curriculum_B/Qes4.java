@@ -22,7 +22,7 @@ public class Qes4 {
 				String left = String.format("%03d", num1[i]);
 				String right = String.format("%03d", num1[j]);
 				String result = String.format("%03d", num1[i] * num1[j]);
-				System.out.print(left + "×" + right + "=" + result + " || ");
+				System.out.print(right + "×" + left + "=" + result + " || ");
 			}
 			System.out.println();
 		}
