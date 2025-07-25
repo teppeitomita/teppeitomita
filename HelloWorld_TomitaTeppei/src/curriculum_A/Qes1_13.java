@@ -64,6 +64,9 @@ public class Qes1_13 {
 		System.out.println("好きな食べ物は" + food + "です");
 
 		System.out.println();
+		
+		float heightInMeter = height / 100.0f;
+		float bmi = weight / (heightInMeter * heightInMeter);
 
 		System.out.println("BMIは" + ((height + height) / weight) + "です");
 
@@ -75,8 +78,8 @@ public class Qes1_13 {
 		weight = 64.2f;
 		food = "オムライス";
 
-		float heightInMeter = height / 100.0f;
-		float bmi = weight / (heightInMeter * heightInMeter);
+		float heightInMeter2 = height / 100.0f;
+		float bmi2 = weight / (heightInMeter * heightInMeter2);
 
 		System.out.println();
 
@@ -85,7 +88,7 @@ public class Qes1_13 {
 		System.out.println("身長は" + height + "cmです");
 		System.out.println("体重は" + weight + "kgです");
 		System.out.println("好きな食べ物は" + food + "です");
-		System.out.println("BMIは" + bmi + "です");
+		System.out.println("BMIは" + bmi2 + "です");
 
 		System.out.println();
 
