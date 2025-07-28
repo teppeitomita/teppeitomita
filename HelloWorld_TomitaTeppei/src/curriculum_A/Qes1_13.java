@@ -49,65 +49,73 @@ public class Qes1_13 {
 
 		System.out.println();
 
-		String name = "山田太郎";
-		int age = 18;
-		float height = 170.5f;
-		float weight = 62.2f;
-		String food = "寿司";
+		String name1 = "山田太郎";
+		int age1 = 18;
+		float height1 = 170.5f;
+		float weight1 = 62.2f;
+		String food1 = "寿司";
 
 		System.out.println();
 
-		System.out.println("初めまして" + name + "です");
-		System.out.println("年齢は" + age + "歳です");
-		System.out.println("身長は" + height + "cmです");
-		System.out.println("体重は" + weight + "kgです");
-		System.out.println("好きな食べ物は" + food + "です");
+		System.out.println("初めまして" + name1 + "です");
+		System.out.println("年齢は" + age1 + "歳です");
+		System.out.println("身長は" + height1 + "cmです");
+		System.out.println("体重は" + weight1 + "kgです");
+		System.out.println("好きな食べ物は" + food1 + "です");
 
 		System.out.println();
 		
-		float heightInMeter = height / 100.0f;
-		float bmi = weight / (heightInMeter * heightInMeter);
+		float heightInMeter1 = height1 / 100.0f;
+		float bmi1 = weight1 / (heightInMeter1 * heightInMeter1);
 
-		System.out.println("BMIは" + ((height + height) / weight) + "です");
-
-		System.out.println();
-
-		name = "鈴木一郎";
-		age = 24;
-		height = 168.5f;
-		weight = 64.2f;
-		food = "オムライス";
-
-		float heightInMeter2 = height / 100.0f;
-		float bmi2 = weight / (heightInMeter * heightInMeter2);
+		System.out.println("BMIは" + bmi1 + "です");
 
 		System.out.println();
 
-		System.out.println("初めまして" + name + "です");
-		System.out.println("年齢は" + age + "歳です");
-		System.out.println("身長は" + height + "cmです");
-		System.out.println("体重は" + weight + "kgです");
-		System.out.println("好きな食べ物は" + food + "です");
+		String name2 = "鈴木一郎";
+		int age2 = 24;
+		float height2 = 168.5f;
+		float weight2 = 64.2f;
+		String food2 = "オムライス";
+
+		float heightInMeter2 = height2 / 100.0f;
+		float bmi2 = weight2 / (heightInMeter2 * heightInMeter2);
+
+		System.out.println();
+
+		System.out.println("初めまして" + name2 + "です");
+		System.out.println("年齢は" + age2 + "歳です");
+		System.out.println("身長は" + height2 + "cmです");
+		System.out.println("体重は" + weight2 + "kgです");
+		System.out.println("好きな食べ物は" + food2 + "です");
+		System.out.println("BMIは" + bmi2 + "です");
+
+		System.out.println();
+		
+		age2  = age2*2;
+		height2 = height2*2;
+		weight2 = weight2*2;
+		
+		heightInMeter2 = height2 / 100.0f;
+		bmi2 = weight2 / (heightInMeter2 * heightInMeter2);
+		
+
+		System.out.println("初めまして" + name2 + "です");
+		System.out.println("年齢は" + age2 + "歳です");
+		System.out.println("身長は" + height2 + "cmです");
+		System.out.println("体重は" + weight2 + "kgです");
+		System.out.println("好きな食べ物は" + food2 + "です");
 		System.out.println("BMIは" + bmi2 + "です");
 
 		System.out.println();
 
-		System.out.println("初めまして" + name + "です");
-		System.out.println("年齢は" + (age * 2) + "歳です");
-		System.out.println("身長は" + (height * 2) + "cmです");
-		System.out.println("体重は" + (weight * 2) + "kgです");
-		System.out.println("好きな食べ物は" + food + "です");
-		System.out.println("BMIは" + (bmi / 2) + "です");
+		System.out.println(age2 < 25);
 
 		System.out.println();
 
-		System.out.println(age < 25);
-
-		System.out.println();
-
-		String ageStr = String.valueOf(age);
-		String heightStr = String.valueOf(height);
-		String weightStr = String.valueOf(weight);
+		String ageStr = String.valueOf(age2);
+		String heightStr = String.valueOf(height2);
+		String weightStr = String.valueOf(weight2);
 
 		System.out.println(ageStr);
 		System.out.println(heightStr);
