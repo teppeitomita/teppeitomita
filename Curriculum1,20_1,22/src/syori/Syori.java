@@ -1,15 +1,16 @@
-package curriculum1_20_1_22;
+package syori;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class syori {
+
+public class Syori {
 	String where;
 	String taste;
 	String food;
 	String formattedDateTime;
 	
-	public syori() {
+	public Syori() {
 		this.where = "日本";
 		this.taste = "うまい";
 		this.food = "和食";
@@ -26,8 +27,8 @@ public class syori {
         System.out.println(specificFood + "は" + this.food + "です");
         System.out.println("今の現在日時は" + this.formattedDateTime + "です");
 	}
-}
 
+}
 /*
 
 下記がコンソールに出力されるように作成してください
